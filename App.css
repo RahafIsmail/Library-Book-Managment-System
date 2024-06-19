@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background-color: burlywood;
+}
+.main {
+  padding: 1rem;
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  background-color: rgb(241, 165, 67);
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+.nav > * {
+  padding: 1rem;
+}
+.nav > *:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.addcont {
+  z-index: 30;
+  position: fixed;
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
