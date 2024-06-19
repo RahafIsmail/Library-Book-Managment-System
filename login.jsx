@@ -1,5 +1,3 @@
-export default Home;
-
 import React from "react";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
